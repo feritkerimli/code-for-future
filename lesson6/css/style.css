@@ -1,0 +1,19 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+div{
+    width: 45%;
+    border: 1px solid black;
+    border-radius: 10PX;
+    padding: 0px 20px;
+    font-family: montserrat;
+    margin: auto;
+    margin-top: 115px;
+}
+h1{
+    font-size: 44px;
+}
+.date{
+    font-size: 12px;
+}
+.main{
+    font-size: 16px;
+}
