@@ -1,0 +1,202 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+
+* {
+    font-family: "Roboto", sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    padding: 0;
+}
+
+main {
+    width: 1400px;
+
+    padding: 91px 124px;
+}
+
+h1 {
+    margin-top: 0;
+
+    font-size: 55px;
+}
+
+#main-container {
+    margin-bottom: 80px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.text {
+    width: 662px;
+
+    font-size: 24px;
+}
+
+.text p {
+    margin: 0;
+}
+
+.text p:first-child {
+    margin: 0 0 40px;
+}
+
+#foot-container {
+    display: flex;
+    align-items: center;
+}
+
+#foot-container img {
+    width: 222px;
+    height: 210px;
+}
+
+ul {
+    padding: 0;
+    margin-left: 142px;
+
+    list-style-type: none;
+    display: flex;
+}
+
+li {
+    padding: 0;
+    margin-right: 95px;
+
+    width: 150px;
+}
+
+.heads {
+    margin: 0 0 10px;
+
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.description {
+    margin: 0;
+
+    font-size: 18px;
+}
+
+@media only screen and (min-width: 830px) and (max-width: 1399px) {
+    main {
+        width: 830px;
+
+        padding: 56px 72px;
+    }
+
+    #main-container {
+        margin-bottom: 56px;
+    }
+
+    #main-container img {
+        width: 193px;
+        height: 181px;
+    }
+    
+    #foot-container img {
+        display: none;
+    }
+
+    ul {
+        margin: 0;
+    }
+
+    li {
+        margin-right: 55px;
+
+        width: 87px;
+    }
+
+    h1  {
+        font-size: 32px;
+    }
+
+    .text p:first-child {
+        margin-bottom: 30px;
+    }
+
+    .text {
+        font-size: 14px;
+        width: 383px;
+    }
+
+    .heads {
+        font-size: 15px;
+
+        margin-bottom: 8px;
+    }
+
+    .description {
+        font-size: 11px;
+    }
+}
+
+@media only screen and (min-width: 375px) and (max-width: 829px) {
+    main {
+        width: 375px;
+
+        padding: 56px 33px;
+    }
+
+    #main-container {
+        flex-direction: column;
+
+        margin-bottom: 46px;
+    }
+
+    #main-container img {
+        width: 170.55px;
+        height: 160.29px;
+
+        margin-top: 32px;
+    }
+
+    h1 {
+        font-size: 26px;
+    }
+
+    .text {
+        width: 308px;
+
+        font-size: 12px;
+    }
+
+    .text p:first-child {
+        margin-bottom: 20px;
+    }
+
+    #foot-container img {
+        display: none;
+    }
+
+    ul {
+        margin: 0;
+
+        flex-wrap: wrap;
+    }
+
+    li {
+        width: 86px;
+
+        margin-right: 24px;
+    }
+
+    li:first-child {
+        margin-bottom: 20px;
+    }
+
+    .heads {
+        font-size: 12px;
+
+        margin-bottom: 5px;
+    }
+
+    .description {
+        font-size: 10px;
+    }
+}
